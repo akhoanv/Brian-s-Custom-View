@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomTextBox">
+        <attr name="customLabel" format="string" />
+        <attr name="customPlaceholder" format="string" />
+        <attr name="customSrc" format="int" />
+    </declare-styleable>
+</resources>

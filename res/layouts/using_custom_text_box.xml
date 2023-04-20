@@ -1,0 +1,13 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              xmlns:custom="http://schemas.android.com/apk/res-auto">
+
+    <com.example.CustomTextBoxView
+        android:id="@+id/customTextBox"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        custom:customLabel="Label"
+        custom:customPlaceholder="Enter Your Text"
+        custom:customSrc="@drawable/three_dot_btn_face"
+    />
+</LinearLayout>
