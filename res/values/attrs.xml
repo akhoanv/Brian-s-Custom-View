@@ -5,4 +5,10 @@
         <attr name="customPlaceholder" format="string" />
         <attr name="customSrc" format="int" />
     </declare-styleable>
+
+    <declare-styleable name="FormField">
+        <attr name="labelTop" format="string" />
+        <attr name="helperBottomText" format="string" />
+        <attr name="iconEnd" format="integer" />
+    </declare-styleable>
 </resources>

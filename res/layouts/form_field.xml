@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="78dp">
+
+    <EditText
+        android:id="@+id/input_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/form_field_border"
+        android:paddingEnd="12.5dp"
+        android:paddingstart="12dp"
+        android:textSize="14sp"
+        tools:text="Enter Your Text"
+    />
+
+    <TextView
+        android:id="@+id/label_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="7dp"
+        android:background="@color/white"
+        android:paddingEnd="4dp"
+        android:paddingStart="4dp"
+        android:textSize="12sp"
+        tools:text="Label"
+    />
+
+    <TextView
+        android:id="@+id/helper_bottom_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/input_edit_text"
+        android:textSize="14sp"
+        android:textColor="##C50505"
+        android:visibility="gone"
+        tools:text="Hint / Error Message"
+    />
+
+</RelativeLayout>
